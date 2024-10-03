@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Educativo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Encabezado principal -->
+    <header>
+        <h1>Ciudadanía Digital</h1>
+        <p>Página de ciudadanía digital</p>
+        <p>CEPE: Centro Educativo Para Estudiantes</p>
+        <nav>
+            <ul class="tabs">
+                <li><a href="#sistema-binario" class="tab-link" onclick="showTab('sistema-binario')">Sistema Binario</a></li>
+                <li><a href="#tipos-datos" class="tab-link" onclick="showTab('tipos-datos')">Tipos de Datos</a></li>
+                <li><a href="#tecnologia" class="tab-link" onclick="showTab('tecnologia')">Tecnología Análoga y Digital</a></li>
+                <li><a href="#hardware" class="tab-link" onclick="showTab('hardware')">Hardware</a></li>
+                <li><a href="#piramide" class="tab-link" onclick="showTab('piramide')">Pirámide del Conocimiento</a></li>
+                <li><a href="#internet" class="tab-link" onclick="showTab('internet')">Internet</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Introducción -->
+    <section id="introduccion">
+        <h2>¿Qué es sociedad digital?</h2>
+        <p>La **sociedad digital** se refiere a la integración y el impacto de las tecnologías digitales en todos los aspectos de la vida cotidiana, transformando cómo interactuamos, trabajamos y nos relacionamos. Esta transformación abarca el uso generalizado de dispositivos tecnológicos, como computadoras y smartphones, así como la adopción de internet y redes sociales para la comunicación y el acceso a la información. La sociedad digital también implica una dependencia creciente de datos y algoritmos para personalizar servicios y tomar decisiones, lo que tiene profundas implicaciones en la economía, la educación y la cultura. Aunque ofrece nuevas oportunidades para la innovación y la inclusión, también plantea desafíos como la brecha digital, que destaca las diferencias entre quienes tienen acceso a estas tecnologías y quienes no.</p>
+
+      <p>Economía digital: La digitalización impulsa nuevos modelos de negocio, como el comercio electrónico y las plataformas digitales, transformando la interacción entre empresas y consumidores.</p>
+      
+      <p>Brecha digital: Existen desigualdades en el acceso a la tecnología, lo que genera diferencias en oportunidades educativas, económicas y sociales entre distintos grupos.</p>
+
+<p>Transformación digital en el trabajo: Las tecnologías como la automatización y el teletrabajo están cambiando la forma en que se trabaja, pero también generan desafíos laborales.</p>
+      
+      <p>Transformación digital en el trabajo: Las tecnologías como la automatización y el teletrabajo están cambiando la forma en que se trabaja, pero también generan desafíos laborales.</p>
+      
+<p>Educación digital: El aprendizaje en línea y las plataformas digitales democratizan el acceso a la educación, pero presentan barreras tecnológicas y de infraestructura.</p>      
+
+      <p>Privacidad y seguridad digital: La recolección masiva de datos y los ciberataques plantean retos significativos en la protección de la información personal en la era digital.</p>
+
+      <p>Cultura digital: La creación y el consumo de contenido cultural se han transformado gracias a las redes sociales y las plataformas de streaming, facilitando la globalización cultural.</p>
+
+      <p>Ciudadanía digital: Implica un uso responsable de Internet, protegiendo los datos personales y participando activamente en debates sobre la regulación digital.</p>
+
+      <p>Impacto ambiental de la tecnología digital: El crecimiento digital tiene un impacto ambiental considerable debido al consumo de energía y la generación de residuos electrónicos.</p>
+
+    <!-- Contenidos de los subtemas como pestañas -->
+    <section id="sistema-binario" class="tab-content">
+        <h2>Sistema Binario</h2>
+        <p>El **sistema binario** es un sistema numérico que utiliza solo dos dígitos: el 0 y el 1. Es la base fundamental de los sistemas de cómputo y tecnología digital. En este sistema, cada dígito se denomina bit (de la contracción de "binary digit") y puede representar uno de los dos estados posibles: apagado (0) o encendido (1). Debido a su simplicidad y facilidad para representar estados físicos en circuitos electrónicos, como la presencia o ausencia de corriente eléctrica, el sistema binario es el que utilizan las computadoras para procesar y almacenar información.
+
+En el sistema binario, los números se construyen de manera similar a los sistemas decimales, pero con potencias de 2 en lugar de 10. Por ejemplo, el número binario 101 significa 1×2² + 0×2¹ + 1×2⁰, lo que equivale a 5 en el sistema decimal. Gracias a este sistema, es posible realizar operaciones matemáticas y lógicas que permiten a las computadoras ejecutar programas, realizar cálculos complejos y manejar grandes cantidades de datos de manera eficiente.</p>
+
+       <img src="https://static.wixstatic.com/media/58e444_8bf8eea3a03f46a58052b02de7cced44~mv2.jpg/v1/fill/w_282,h_547,al_c,q_80,enc_auto/58e444_8bf8eea3a03f46a58052b02de7cced44~mv2.jpg" alt="Tabla de Códigos Binarios.">
+    </section>
+
+    <section id="tipos-datos" class="tab-content">
+        <h2>Tipos de Datos</h2>
+        <p>Los **tipos de datos** son categorías que definen el tipo de valor que una variable puede almacenar en un lenguaje de programación. Estos tipos son fundamentales porque permiten al sistema operativo o lenguaje saber cómo manejar los datos de manera eficiente y correcta. Entre los tipos de datos más comunes están los **númericos**, que incluyen enteros (int), como 5 o -3, y de punto flotante (float), como 3.14 o -0.01. Estos se utilizan para realizar cálculos matemáticos. También están los **booleanos** (bool), que pueden tener uno de dos valores: verdadero (true) o falso (false), utilizados principalmente para controlar el flujo lógico de un programa.
+
+Otro tipo importante son las **cadenas de texto** (string), que representan secuencias de caracteres, como palabras o frases, y se usan para almacenar datos alfanuméricos como nombres, direcciones o mensajes. También están los **tipos compuestos** o estructuras de datos, como listas o arreglos (array), conjuntos (set), y diccionarios (dict), que permiten agrupar múltiples elementos bajo un solo identificador y facilitar la manipulación de grandes conjuntos de datos en una sola variable. Estos tipos de datos son esenciales para la organización y eficiencia en la programación.</p>
+
+      <p>Enteros y números de punto flotante: Los tipos de datos numéricos son fundamentales para el manejo de cálculos en programación. Los enteros (int) son números sin decimales, tanto positivos como negativos, y se usan comúnmente en operaciones matemáticas simples, contadores o índices de bucles. Los números de punto flotante (float), que incluyen decimales, permiten una mayor precisión en cálculos más complejos, como operaciones financieras, físicas o científicas, donde las fracciones son comunes.</p>
+
+      <p>Booleanos y control de flujo: Los tipos booleanos (bool) son esenciales en la lógica de los programas. Un valor booleano solo puede ser verdadero (true) o falso (false), y se utilizan en condiciones para tomar decisiones dentro del programa. Por ejemplo, en una declaración if, el programa verificará una condición booleana para decidir qué bloques de código ejecutar, facilitando el control del flujo lógico.</p>
+      
+      <p>Cadenas de texto (strings): Las cadenas de texto, o strings, son secuencias de caracteres que permiten a los programadores manejar datos alfanuméricos, como nombres, descripciones o cualquier otro tipo de información textual. Las cadenas se pueden manipular de diversas formas, como concatenarlas, dividirlas o buscar subcadenas dentro de ellas, lo que es útil en operaciones como el procesamiento de lenguaje natural o la gestión de archivos de texto.</p>
+
+      <p>Listas y arreglos (arrays): Las listas y los arreglos son tipos de datos que agrupan múltiples elementos bajo un solo nombre, permitiendo a los programadores trabajar con colecciones de datos de forma eficiente. Las listas en lenguajes como Python pueden contener elementos heterogéneos (de diferentes tipos), mientras que los arreglos en lenguajes como C o Java suelen ser homogéneos (todos los elementos del mismo tipo). Son ideales para almacenar secuencias de datos, como una lista de nombres o una serie de números.</p>
+      
+      <p>Conjuntos (sets): Los conjuntos (sets) son estructuras de datos que almacenan colecciones de elementos únicos, sin mantener un orden específico. Son útiles cuando el objetivo es asegurarse de que no haya duplicados entre los elementos almacenados, como en la gestión de bases de datos o en problemas que requieren verificar la unicidad de los datos, como la creación de listas de invitados o la eliminación de duplicados en una colección.</p>
+
+      <p>Diccionarios (dict): Los diccionarios son estructuras de datos clave-valor que permiten almacenar pares asociados, donde una clave única está vinculada a un valor. Esta estructura es muy eficiente para búsquedas rápidas y es ampliamente utilizada en la programación para almacenar información jerárquica o asociativa, como registros de usuarios, configuraciones o índices. La capacidad de acceder a los valores directamente a través de las claves facilita el manejo de grandes cantidades de datos.</p>
+      
+      <p>Tipado estático vs dinámico: El tipado estático y dinámico hace referencia a cómo un lenguaje de programación maneja los tipos de datos. En lenguajes de tipado estático, como C o Java, el tipo de una variable debe ser declarado antes de usarla, lo que ofrece mayor seguridad en el código. En lenguajes de tipado dinámico, como Python o JavaScript, el tipo de dato se puede cambiar sobre la marcha, brindando mayor flexibilidad, aunque a veces puede provocar errores difíciles de detectar.</p>
+      
+      <p>Conversión entre tipos de datos: La conversión de tipos, o casting, es el proceso de cambiar un dato de un tipo a otro, como convertir un entero en una cadena o un número flotante en un entero. Este proceso es esencial en muchos contextos de programación, especialmente cuando se interactúa con funciones que requieren tipos específicos o al manipular datos obtenidos de diferentes fuentes, como entradas de usuario o bases de datos.</p>
+        <img src="https://i.pinimg.com/1200x/c5/6e/e9/c56ee96ba444ceef3b950622baa6fece.jpg" alt="Tipos de Datos" class="responsive-img">
+    </section>
+
+    <section id="tecnologia" class="tab-content">
+        <h2>Tecnología Análoga y Digital</h2>
+        <p>La **tecnología análoga** se basa en la representación continua de la información. En este tipo de tecnología, las señales varían de manera continua y pueden tomar infinitos valores dentro de un rango. Un ejemplo común de tecnología análoga es el sonido en un disco de vinilo, donde las variaciones en la superficie del disco representan directamente las ondas sonoras. La señal análoga es sensible a interferencias y ruido, lo que puede degradar la calidad de la transmisión o almacenamiento de datos. Aunque ha sido ampliamente usada en dispositivos como radios, televisores antiguos y grabadoras de audio, la tecnología análoga ha sido reemplazada en gran medida por la digital en muchas aplicaciones debido a sus limitaciones.
+
+La **tecnología digital**, en cambio, utiliza señales discretas, representadas generalmente por el sistema binario (0 y 1). En lugar de una variación continua, la información se codifica en bits que pueden tener solo dos estados, lo que facilita la transmisión y almacenamiento sin pérdida significativa de calidad. Esta tecnología es menos susceptible al ruido y las interferencias, lo que permite una mayor precisión y fiabilidad en la transmisión de datos. La tecnología digital es la base de dispositivos modernos como computadoras, teléfonos móviles, televisores de alta definición y sistemas de comunicación. Su capacidad para procesar grandes cantidades de datos con rapidez y eficiencia ha sido clave en el desarrollo de la era digital.</p>
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYZbDquyx8c_t2fXMD9C3f8b6SIFEZJdTD-30oGZHQdpTD2OrwsZkXTdo2WbcvU1j2dU3EsytqcASclGIx5mFeumqcIgpslBWyuxp2QxVKbpDPklaiGB-8agfxlIKvWpywRF8S0KJ19g/s581/anadigital.jpg" alt="Descripción de la imagen">
+    </section>
+
+    <section id="hardware" class="tab-content">
+        <h2>Hardware</h2>
+        <p>El **hardware** se refiere a los componentes físicos de un sistema informático, es decir, las partes tangibles de una computadora u otros dispositivos electrónicos. Estos incluyen elementos como el procesador (CPU), que es el "cerebro" de la computadora y realiza todas las operaciones lógicas y aritméticas, la memoria RAM, que almacena temporalmente los datos y programas en uso para un acceso rápido, y el disco duro o almacenamiento sólido (SSD), que guarda de manera permanente la información del sistema, archivos y programas. Otros componentes de hardware importantes son la tarjeta gráfica (GPU), que procesa imágenes y gráficos, y la placa base, que conecta y permite la comunicación entre todos los componentes.
+
+El hardware también incluye los dispositivos periféricos, que permiten la interacción entre el usuario y la máquina. Estos periféricos pueden ser de entrada, como el teclado, el ratón o un escáner, que envían información al sistema, o de salida, como el monitor o la impresora, que permiten visualizar o recibir la información procesada. Además, hay dispositivos de almacenamiento externo, como memorias USB o discos duros portátiles, que permiten transportar o respaldar datos. El rendimiento y la funcionalidad de una computadora dependen en gran medida de la calidad y capacidad de sus componentes de hardware.</p>
+        <img src="https://i.pinimg.com/736x/61/db/b9/61dbb99f5566b9b4e2a2f8c97c1b3873.jpg" alt="">
+
+    </section>
+
+    <section id="piramide" class="tab-content">
+        <h2>Pirámide del Conocimiento</h2>
+        <p>La **pirámide del conocimiento** es un modelo conceptual que describe la relación entre datos, información, conocimiento y sabiduría. Se representa en forma de pirámide, donde cada nivel superior agrega valor y complejidad a los niveles inferiores. En la base se encuentran los **datos**, que son hechos o cifras sin contexto ni interpretación. Estos datos, en bruto, no tienen un significado inherente hasta que se organizan y procesan.
+
+El segundo nivel es la **información**, que surge cuando los datos se estructuran de manera coherente, dándoles contexto y relevancia. La información responde preguntas como “quién”, “qué” o “cuándo”. El tercer nivel es el **conocimiento**, que se obtiene cuando la información se analiza y se comprende, lo que permite interpretar y utilizar la información de manera efectiva. Finalmente, en la cúspide se encuentra la **sabiduría**, que es la capacidad de tomar decisiones acertadas y juicios basados en el conocimiento acumulado y la experiencia. La sabiduría implica no solo comprender la información, sino aplicarla de manera ética y estratégica en contextos complejos. 
+
+Este modelo es muy utilizado en disciplinas como la gestión del conocimiento, la educación y la inteligencia empresarial para entender cómo las organizaciones o individuos pueden procesar datos para generar valor.</p>
+        <img src="https://www.researchgate.net/profile/Miriam-Rodriguez-Pallares/publication/331639464/figure/fig1/AS:734836008427520@1552209965614/Figura-1-Piramide-del-conocimiento-Fuente-elaboracion-propia.png" alt="Pirámide del Conocimiento" class="responsive-img">
+    </section>
+
+    <section id="internet" class="tab-content">
+        <h2>Internet</h2>
+        <p>El **internet** es una red global de comunicación que conecta millones de computadoras y dispositivos en todo el mundo, permitiendo el intercambio de información a través de protocolos estandarizados, como el Protocolo de Internet (IP). Surgió en los años 60 como un proyecto del Departamento de Defensa de los Estados Unidos llamado ARPANET, con el objetivo de crear una red de comunicación descentralizada. Desde entonces, ha evolucionado rápidamente, convirtiéndose en el sistema fundamental para la transmisión de datos y comunicaciones a nivel mundial. A través del internet, es posible acceder a una vasta cantidad de recursos, como páginas web, correo electrónico, redes sociales y servicios en la nube.
+
+El internet se basa en la arquitectura de cliente-servidor, donde los dispositivos (clientes) solicitan información o servicios de otros dispositivos (servidores). Estos servicios incluyen el **World Wide Web** (WWW), una colección interconectada de documentos y aplicaciones multimedia accesibles mediante navegadores web. Además, el internet ha revolucionado la forma en que las personas se comunican y colaboran, facilitando la aparición de tecnologías como el correo electrónico, las videollamadas y las redes sociales. Gracias a su alcance global y capacidad de conectar a personas e información en tiempo real, el internet ha transformado casi todos los aspectos de la vida moderna, desde la educación y el entretenimiento hasta el comercio y las finanzas.</p>
+        <img src="https://literalni.com/wp-content/uploads/2022/02/ciudadania-digital1-literal.jpg" alt="Internet" class="responsive-img">
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 César Romero - Guillermo Árevalo</p>
+    </footer>
+
+    <!-- Script para mostrar las pestañas correspondientes -->
+    <script>
+        function showTab(tabId) {
+            var tabs = document.getElementsByClassName('tab-content');
+            for (var i = 0; i < tabs.length; i++) {
+                tabs[i].style.display = 'none';
+            }
+            document.getElementById(tabId).style.display = 'block';
+        }
+
+        // Mostrar el primer tab por defecto al cargar la página
+        document.addEventListener('DOMContentLoaded', function() {
+            showTab('sistema-binario');
+        });
+    </script>
+
+</body>
+</html>
